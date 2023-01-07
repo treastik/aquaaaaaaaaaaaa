@@ -1,0 +1,52 @@
+*  {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;  
+}
+
+body {
+    background-color: red;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: linear-gradient(rgb(0, 0, 0),#000000);
+    position: relative;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+ .content {
+    max-width: 600px;
+    margin-top: 100px;
+ }
+ .content h1{
+    font-size: 60px;
+    color:white;
+ }
+
+ .content p {
+    max-width: 450px;
+    color: white;
+    font-size: 15p;
+    font-weight: 300;
+    line-height: 22px;
+    margin: 40px 0;
+ }
+
+ .fish {
+    width: 55%;
+    position: absolute;
+    right: 70px;
+    bottom: 60px;
+    animation: run 2s linear 1;
+ }
+
+ @keyframes run {
+    0% {
+        transform: translate(-100px,-100px);
+    }
+    100% {
+        transform: translate(0px,0px);
+    }
+ }

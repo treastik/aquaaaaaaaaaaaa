@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="path/to/smooth-scroll.polyfills.min.js"></script>
+    <link rel="stylesheet" href="galery.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="menu.css" type="" href="">
+    <link rel="galery.css" type="" href="">
+    <title>AquaCity</title>
+</head>
+<body>
+  <header>
+    <a href="" class="brand">AquaCity</a>
+    <div class="menu-btn"></div>
+    <div class="navigation">
+        <div class="navigation-items">
+            <a href="index.html">Domov</a>
+            <a href="info.html">Informácie</a>
+            <a href="about.html">O nás</a>
+            <a class="lang" key="contact" href="contact.php">Kontaktujte nás</a>
+            <a href="">Galéria</a>
+        </div>
+    </div>
+    </header>
+
+    <div class="container">
+
+      <h1>Galéria</h1>
+    
+      <div class="gallery">
+    
+        <div class="gallery-item">
+          <img class="gallery-image" src="img/1.jpg">
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="img/2.jpg">
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="img/3.jpg">
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="img/4.jpg">
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="img/5.jpg">
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="img/6.jpg">
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="img/7.jpg">
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="img/8.jpg">
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="img/9.jpg">
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="img/10.jpg">
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="img/11.jpg">
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="img/12.jpg">
+        </div>
+        
+    
+      </div>
+    
+    </div>
+    <script type="text/javascript">
+      //responzivne menu js
+      const menuBtn = document.querySelector(".menu-btn");
+      const navigation = document.querySelector(".navigation");
+      
+  
+      menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("active");
+        navigation.classList.toggle("active");
+  
+        menuBtn.close = ("click");
+      });
+      </script>
+</body>
+</html>
